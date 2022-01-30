@@ -2,8 +2,6 @@ void setup() {
   Serial.begin(9600);
   pinMode(3,OUTPUT); // Motor pin 1
   pinMode(5,OUTPUT); // Motor pin 1
-  pinMode(3,OUTPUT); // Motor pin 1
-  pinMode(5,OUTPUT); // Motor pin 1
   pinMode(A0,INPUT);  // 10k Potentiometer
 }
 
