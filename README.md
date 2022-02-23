@@ -56,4 +56,4 @@ void loop() {
 </details>
 
 ## Working 
-The potentiometer value is varied by rotating the potentiometer's knob and this value is fed into arduino as anolog input at pin A0 of arduino. The analog input has a range of `0-1023`. This input is mapped to a value in the range `0-255`. The mapped value is fed as [PWM](https://create.arduino.cc/projecthub/muhammad-aqib/arduino-pwm-tutorial-ae9d71) output to the motor driver at pin `4` which in turn drives the motor. The speed of the motor varies as the potentiometer value is changed.
+The potentiometer value is varied by rotating the potentiometer's knob and this value is fed into arduino as anolog input at pin A0 of arduino. The analog input has a range of `0-1023`. This input is mapped to a value in the range `0-255`. The mapped value is fed as [PWM](https://create.arduino.cc/projecthub/muhammad-aqib/arduino-pwm-tutorial-ae9d71) output to the motor driver at pin `4` which in turn drives the motor. The speed and direction of the motor varies as the potentiometer value is changed.
