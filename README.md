@@ -50,7 +50,7 @@ An Arduino uno has 6 PWM output pins (3,5,6,9,10,11) labeled with ~ sign. PWM si
 </br>
 1. The values in the range <strong>0 to 511</strong> indicate to run the motor in clockwise direction. Thus the PWM output is given at pin 3 of Arduino to input pin IN1 of the L298N motor driver. 
 </br>
-2. The values in the range<strong>512 to 1023</strong>indicate to run the motor in anticlockwise direction.Thus the PWM output is given at pin 5 of Arduino to input pin IN2 of the L298N motor driver. 
+2. The values in the range <strong>512 to 1023</strong> indicate to run the motor in anticlockwise direction.Thus the PWM output is given at pin 5 of Arduino to input pin IN2 of the L298N motor driver. 
 </br>
 Both the ranges are mapped to a value in the range <strong>0 to 255</strong> using "map()" function. The mapped value is fed as PWM output to the L298N motor driver which in turn drives the dc motor connected to the output pins of the driver at the desired speed and direction</p>
 
